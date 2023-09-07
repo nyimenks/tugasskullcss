@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+#atasan {
+    position: sticky;
+    z-index: 1;
+    top: 0;
+}
+#header {
+    font-family: 'Gill Sans MT';
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    background: #363636;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+#navmenu {
+    text-align: center;
+    background: gray;
+    font-family: 'Gill Sans MT';
+    color: white;
+}
+
+#navmenu a {
+    color: white;
+    -webkit-text-stroke-width: 50cap;
+    -webkit-text-stroke-color: black;
+}
+#navmenu a:hover {
+    color: #222021;
+    -webkit-text-stroke-width: 50cap;
+    -webkit-text-stroke-color: black;
+}
+#content {
+    display: flex;
+    float: right;
+    width: 80%;
+    height: 1200px;
+    background: #544C4A;
+    z-index: -2;
+}
+#home h1{
+    font-family: 'Gill Sans MT';
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+#aboutme h1 {
+    font-family: 'Gill Sans MT';
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+#contact h1 {
+    font-family: 'Gill Sans MT';
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+#hrhr {
+    font-family: 'Gill Sans MT';
+    font-size: 20px;
+    color: white;
+}
+#hrhr2 {
+    font-family: 'Gill Sans MT';
+    font-size: 20px;
+    color: white;
+    text-align: left;
+}
+#hrhr3 {
+    font-family: 'Gill Sans MT';
+    font-size: 20px;
+    color: white;
+    text-align: left;
+}
+#sidebar h1 {
+    font-family:'Gill Sans MT';
+    color: white;
+    text-align: center;
+    position: relative;
+}
+#sidebar {
+    float: left;
+    width: 20%;
+    height: 1200px;
+    background: #222021;
+    z-index: -1;
+    font-size: 50%;
+}
+#footer {
+    color: white;
+    position: sticky;
+    bottom: 0;
+    float: bottom;
+    text-align: center;
+    width: 100%;
+    background: #363636;
+}
